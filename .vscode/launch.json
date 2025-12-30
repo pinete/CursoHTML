@@ -1,0 +1,45 @@
+{
+  // Use IntelliSense para saber los atributos posibles.
+  // Mantenga el puntero para ver las descripciones de los existentes atributos.
+  // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Exec-Edge",
+      "request": "launch",
+      "type": "msedge",
+      "url": "${workspaceFolder}/${relativeFile}",
+      "webRoot": "${workspaceFolder}"
+    },
+        {
+      "name": "Exec-Chrome",
+      "request": "launch",
+      "type": "chrome",
+      "url": "${workspaceFolder}/${relativeFile}",
+      "webRoot": "${workspaceFolder}"
+    },
+    {
+      "name": "Exec-Firefox",
+      "request": "launch",
+      "type": "firefox",
+      "url": "${workspaceFolder}/${relativeFile}",
+      "webRoot": "${workspaceFolder}"
+    },
+    /* ACTUALMENTE Safari no se puede instalar bajo Windows */
+/*     {
+      "name": "Exec-Safari",
+      "request": "launch",
+      "type": "safari",
+      "url": "${workspaceFolder}/${relativeFile}",
+      "webRoot": "${workspaceFolder}"
+    }, */
+    {
+      /* Trabaja casi igual que Chrome */
+      "name":"Exec-Opera",
+      "type":"opera",
+      "request":"launch",
+      "url":"${workspaceFolder}/${relativeFile}",
+      "webRoot":"${workspaceFolder)"
+    }
+  ]
+}
