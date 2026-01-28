@@ -21,7 +21,7 @@
     {
       "name": "Exec-Firefox",
       "request": "launch",
-      "type": "firefox",
+      "type":"firefox",
       "url": "${workspaceFolder}/${relativeFile}",
       "webRoot": "${workspaceFolder}"
     },
